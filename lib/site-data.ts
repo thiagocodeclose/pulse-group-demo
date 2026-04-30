@@ -1,0 +1,41 @@
+export const siteData = {
+  gym: {
+    name: 'Pulse Fitness',
+    tagline: 'Feel Every Beat.',
+    location: 'Miami, FL',
+    phone: '(305) 555-0174',
+    email: 'hi@pulsefitness.com',
+    address: '820 Lincoln Rd, Miami Beach, FL 33139',
+    instagram: 'https://instagram.com/pulsefitness',
+    hero_image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1600&q=80',
+  },
+  stats: [
+    { value: '50+', label: 'Classes Weekly' },
+    { value: '800+', label: 'Active Members' },
+    { value: '4.9★', label: 'Member Rating' },
+    { value: '12', label: 'Expert Trainers' },
+  ],
+  classTypes: [
+    { name: 'HIIT Blast', duration: '45 min', calories: '600–800', level: 'All Levels', color: '#FF1744', desc: 'High-intensity interval training that alternates peak effort with active recovery. Maximizes calorie burn long after class ends.' },
+    { name: 'Cardio Dance', duration: '55 min', calories: '400–600', level: 'Beginner+', color: '#E91E63', desc: 'Latin rhythms meet serious cardio. No dance experience needed — just a willingness to move and sweat.' },
+    { name: 'Tabata Burn', duration: '30 min', calories: '500–700', level: 'Intermediate', color: '#FF1744', desc: 'Eight rounds of 20 seconds max effort, 10 seconds rest. The most efficient 30 minutes of your week.' },
+    { name: 'Step & Sculpt', duration: '50 min', calories: '450–550', level: 'All Levels', color: '#E91E63', desc: 'Aerobic step combined with light resistance work. Elevate your heart rate and tone simultaneously.' },
+    { name: 'Kickboxing', duration: '60 min', calories: '600–900', level: 'All Levels', color: '#FF1744', desc: 'Combinations, footwork, and heavy bags. Build power, coordination, and an incredible cardio base.' },
+    { name: 'Aqua Cardio', duration: '45 min', calories: '350–500', level: 'All Levels', color: '#E91E63', desc: 'Low-impact, high-energy pool cardio. Perfect for active recovery or joint-friendly training.' },
+  ],
+  schedule: [
+    { day: 'Mon', time: '6:00 AM', name: 'HIIT Blast', trainer: 'Daniela', level: 'All' },
+    { day: 'Mon', time: '6:30 PM', name: 'Cardio Dance', trainer: 'Sofia', level: 'Beg+' },
+    { day: 'Tue', time: '7:00 AM', name: 'Tabata Burn', trainer: 'Marcus', level: 'Int' },
+    { day: 'Wed', time: '12:00 PM', name: 'Step & Sculpt', trainer: 'Daniela', level: 'All' },
+    { day: 'Thu', time: '6:00 AM', name: 'Kickboxing', trainer: 'Rodrigo', level: 'All' },
+    { day: 'Fri', time: '5:30 PM', name: 'HIIT Blast', trainer: 'Marcus', level: 'All' },
+    { day: 'Sat', time: '9:00 AM', name: 'Cardio Dance', trainer: 'Sofia', level: 'All' },
+    { day: 'Sun', time: '10:00 AM', name: 'Tabata Burn', trainer: 'Rodrigo', level: 'Int' },
+  ],
+  pricing: [
+    { name: 'Drop-In', price: '$22', period: 'per class', features: ['Single class access', 'All class types', 'Equipment included', 'Locker room'], highlight: false },
+    { name: 'Monthly', price: '$89', period: 'per month', features: ['Unlimited classes', 'All class types', 'Guest pass (1/mo)', 'Priority booking', 'App access'], highlight: true },
+    { name: 'Family', price: '$149', period: 'per month', features: ['Up to 3 members', 'Unlimited classes', 'Guest passes (2/mo)', 'Private coaching discount', 'App access'], highlight: false },
+  ],
+};
