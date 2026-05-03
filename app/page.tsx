@@ -179,7 +179,7 @@ export default function PulsePage() {
         <div className="pl-hero-overlay" />
         <div className="pl-hero-content">
           <div className="pl-hero-tag">Miami Beach · Group Fitness</div>
-          <h1 className="pl-hero-title">
+          <h1 data-cg-el="hero_headline_1" className="pl-hero-title">
             FEEL<br />EVERY<br /><span>BEAT.</span>
           </h1>
           <p className="pl-hero-sub">{d.gym.name} brings Miami energy to group fitness. Classes that challenge you, music that moves you, results you'll actually see.</p>
