@@ -182,10 +182,10 @@ export default function PulsePage() {
           <h1 data-cg-el="hero_headline_1" className="pl-hero-title">
             FEEL<br />EVERY<br /><span>BEAT.</span>
           </h1>
-          <p className="pl-hero-sub">{d.gym.name} brings Miami energy to group fitness. Classes that challenge you, music that moves you, results you'll actually see.</p>
+          <p data-cg-el="hero_subtitle" className="pl-hero-sub">{d.gym.name} brings Miami energy to group fitness. Classes that challenge you, music that moves you, results you'll actually see.</p>
           <div className="pl-hero-actions">
-            <button className="pl-btn-primary">Start for Free</button>
-            <button className="pl-btn-white">View Schedule</button>
+            <button data-cg-el="hero_cta_primary" className="pl-btn-primary">Start for Free</button>
+            <button data-cg-el="hero_cta_secondary" className="pl-btn-white">View Schedule</button>
           </div>
         </div>
       </section>
