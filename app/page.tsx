@@ -274,7 +274,7 @@ export default function PulsePage() {
           <div className="pl-footer-logo">PULSE<span>.</span></div>
           <div className="pl-footer-info">{d.gym.address}<br />{d.gym.phone} · {d.gym.email}</div>
         </div>
-        <div className="pl-footer-copy">© {new Date().getFullYear()} {d.gym.name}. Powered by Koriva.</div>
+        <div className="pl-footer-copy">© {new Date().getFullYear()} {d.gym.name}. Powered by Garrison365.</div>
       </footer>
     </>
   );
